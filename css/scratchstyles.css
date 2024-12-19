@@ -1,0 +1,142 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 248, 220, 0.645);
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.h2{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #34495E;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #2C3E50;
+}
+
+/* Resume Container */
+.resume-container {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    /* justify-items: center; */
+}
+
+.container{
+    justify-items: center;
+    text-align: center;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 0;
+}
+
+.list{
+    justify-items: center;
+    text-align: left;
+}
+
+#tableau { 
+    
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    padding: 20px;
+}
+
+.tableauPlaceholder{
+    display: block;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    padding: 20px;
+
+    margin-top: 20px; 
+    text-align: center;
+   
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    /* Adjust width if necessary */
+    margin: 0px auto;
+}
+
+.tableauViz {
+    width: 100%;
+    height: 600px; /* Set appropriate height */
+}
+
+/* Back to Top Link */
+a.back-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+a.back-to-top:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
